@@ -1,4 +1,5 @@
-A great amount of liturature has been done in the field of nuptual pairing. This paper describes a case study of 
+A great amount of liturature has been done in the field of nuptual pairing. This paper describes a case study of two people who fell in love during the year of 2024 in 
+
 
 Data points
 
@@ -15,16 +16,17 @@ Long walks
 Restarunts
 Hygine
 Flowers
-Chocolate
+White Chocolate
 
 supplamental activities: tennis, movies, bowling, board games, library visits,
 
+Conversational techiniques, 
 
 
 Prayer must be a continual practice. Imploring God for wisdom in regard to matremony and singleness. Diligent attention should be placed on guarding oneself
 from emotional dependency on any particular partner until necessary prerequisites have been placed by both divine requirments and contextual signals.
 
-Early days were dounting and percarious. I crafted parites with sufficient maletofemale ratios to avoid uneasiness.
+Early days were dounting and percarious. I crafted parites with sufficient gender ratios to avoid uneasiness.
 Allowing each to observe the other in sufficient public settings before moving on to privite one on ones.
 
 
@@ -58,3 +60,85 @@ my favorite pictures of you are from our trip to Longwood.
 
 It is therefore my humble conclusion that R H and the author be immediatly matrimonied at the earliest possible convinience. 
 The author kindly requests exactly (1) lifetime of funding to further explore this promsing area of reserach.
+
+
+
+Charts
+
+import matplotlib.pyplot as plt
+
+def plot_agreement_pie_charts(data_dict):
+    """
+    Produces pie charts for agreement data in a grid layout, with a final chart summarizing all data.
+
+    Parameters:
+        data_dict (dict): Dictionary where keys are category names and values are lists of booleans representing agreement.
+
+    Returns:
+        None: Displays pie charts in a grid format.
+    """
+    categories = list(data_dict.keys())
+    num_categories = len(categories)
+
+    # Calculate rows and columns for the grid layout
+    cols = 2
+    rows = (num_categories + 1) // cols + (1 if (num_categories + 1) % cols else 0)
+
+    # Initialize overall agreement counters
+    total_agree = 0
+    total_disagree = 0
+
+    # Set up the figure
+    fig, axes = plt.subplots(rows, cols, figsize=(12, rows * 4))
+    axes = axes.flatten()
+
+    # Plot individual category pie charts
+    for i, (category, values) in enumerate(data_dict.items()):
+        agree = sum(values)
+        disagree = len(values) - agree
+
+        # Update total agreement counters
+        total_agree += agree
+        total_disagree += disagree
+
+        # Data for the pie chart
+        labels = ['Agree', 'Disagree']
+        sizes = [agree, disagree]
+        colors = ['#76c893', '#f28482']
+
+        # Plot the pie chart
+        axes[i].pie(sizes, labels=labels, autopct='%1.1f%%', colors=colors, startangle=90)
+        axes[i].set_title(f"{category}")
+
+    # Final summary pie chart
+    labels = ['Agree', 'Disagree']
+    sizes = [total_agree, total_disagree]
+    colors = ['#76c893', '#f28482']
+
+    axes[-1].pie(sizes, labels=labels, autopct='%1.1f%%', colors=colors, startangle=90)
+    axes[-1].set_title("Overall Agreement")
+
+    # Hide unused subplots if any
+    for j in range(i + 1, len(axes)):
+        axes[j].axis('off')
+
+    # Adjust layout
+    plt.tight_layout()
+    plt.show()
+
+
+# Example data
+example_data = {
+    "Family Matters": [True, False, True, True, True, True, False, True, True, True],
+    "Spiritual": [True, True, True, True, True, True, False, True, True, True],
+    "Marriage": [True, False, True, True, True, True, False, True, True, True],
+    "Finances": [True, True, True, True, True, True, True, True, True, True]
+}
+
+# Generate pie charts
+plot_agreement_pie_charts(example_data)
+
+
+
+
+
