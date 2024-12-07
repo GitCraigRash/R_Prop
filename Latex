@@ -173,9 +173,51 @@ External verification was sought through:
 Rachonian research is critical... [rest of introduction]
 \footnote{The word \textbf{demure} is often used...}
 
-\section{Introduction}
-Rachonian research is critical... [rest of introduction]
-\footnote{The word \textbf{demure} is often used...}
+\section*{Results}
+
+\subsection*{Couple Coefficient Analysis}
+Analysis of the \textbf{Couple Coefficient (CC)} dataset (Figure 1)\footnote{The Couple Coefficient is a proprietary metric developed specifically for this study, measuring relationship compatibility on a scale from 0 to 1000.} reveals several compelling findings that strongly support our initial hypothesis regarding the necessity of a permanent research partnership. Here are the key outcomes:
+% Space for plots
+\begin{figure}[h]
+    \centering
+    \hspace*{-1.5in} % Shift the figure to the right by 1.5 inches
+    \includegraphics[angle=-90, width=\textheight]{event_plot3.pdf} % Rotated counterclockwise and scaled to full page
+    \caption{Couple Coefficient Dataset Analysis}
+    \label{fig:cc_analysis}
+\end{figure}
+
+\subsubsection*{Primary Outcomes}
+The data demonstrates a remarkable upward trajectory, with values increasing from an initial measurement of 58.48 on 12/18/2023 to \textbf{932.48} on 12/3/2024\footnote{This unprecedented increase of 1494\% in measured CC units represents the highest growth rate ever recorded in relationship dynamics research.}, representing a 1494\% increase in measured CC units ($p < 0.01$).
+
+\subsubsection*{Significant Anomalies}
+\begin{itemize}
+    \item A notable \textbf{"love spike"}\footnote{The term "love spike" refers to a sudden, significant increase in emotional connection and compatibility metrics.} occurred on 1/17/2024, where values jumped from 80.89 to 124.07, suggesting a breakthrough moment in subject compatibility.
+    \item The \textbf{"Valentine's Effect"}\footnote{A phenomenon typically observed on February 14th, characterized by temporarily elevated relationship metrics.} manifested on 2/14/2024 with a reading of 176.15, though interestingly, this was surpassed by numerous subsequent measurements, indicating that every day became more special than Valentine's Day.
+\end{itemize}
+
+\subsubsection*{Most Significant Results}
+\begin{itemize}
+    \item The data exhibits a clear exponential growth pattern ($r^2 = 0.97$, $p < 0.01$), suggesting that feelings are not merely additive but multiplicative over time.
+    \item Zero negative values were recorded, indicating a complete absence of relationship-threatening variables.
+    \item The highest recorded value (932.48) occurred at the study's conclusion, suggesting we have yet to reach peak potential.
+\end{itemize}
+
+\subsection*{Compatibility Spectrum Analysis}
+Analysis of the \textbf{Compatibility Spectrum}\footnote{A comprehensive measurement tool evaluating multiple domains of relationship compatibility.} ($n=97$) reveals compelling evidence supporting the proposed permanent research partnership hypothesis. The data demonstrates remarkable alignment across multiple domains of investigation:
+
+\subsubsection*{Primary Compatibility Outcomes}
+\begin{itemize}
+    \item \textbf{Theological compatibility}\footnote{Measured through structured discussions on fundamental beliefs and spiritual practices.} shows the highest concordance rate, with 97.1\% agreement across both major (17/17) and minor (16/17) theological discussions.
+    \item Financial and stress management domains both exhibited perfect alignment (13/13).
+    \item Spousal expectations demonstrated 100\% concordance (10/10).
+\end{itemize}
+
+\subsection*{Emotional Readiness Assessment}
+Scientific research is often done out of a researcher's love for the science, typically maintaining a clinical distance from personal interactions. Rarely do subjects develop nuanced opinions about the researcher, and even more seldom will they reciprocate the hopelessly curious soul's vulnerable outpouring of life, hopes, and dreams. Astonishingly, \textbf{Subject R. Hexamer}\footnote{The primary subject of this study, who has demonstrated exceptional qualities beyond standard research parameters.} defied these typical research paradigms by reciprocating affection!
+
+\vspace{0.5cm}
+\noindent\textit{Conflict of Interest Statement}: The researcher freely admits to being completely biased in favor of the subject and has no intention of maintaining scientific objectivity regarding feelings toward her.
+
 
 \section{Introduction}
 Rachonian research is critical... [rest of introduction]
