@@ -217,16 +217,9 @@ Scientific research is often done out of a researcher's love for the science, ty
 % Space for plots
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{plot1.pdf}
+    \includegraphics[width=0.8\textwidth]{R_Spider.pdf}
     \caption{Couple Coefficient Dataset Analysis}
     \label{fig:cc_analysis}
-\end{figure}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.8\textwidth]{plot2.pdf}
-    \caption{Compatibility Spectrum Analysis}
-    \label{fig:compatibility_analysis}
 \end{figure}
 
 \section*{Conclusion}
